@@ -1,0 +1,47 @@
+.form {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    
+}
+
+.form-control__name {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.form-control__price {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.form-control:not(:first-child) {
+    margin-left: 20px;
+}
+
+.form-control__button-save {
+    margin-left: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.form-control__button-reset {
+    margin-left: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 30px;
+    height: 35px;
+    border-radius: 5px;
+}

@@ -1,0 +1,8 @@
+.form-control__name {
+    width: 100%;
+    max-width: initial;
+}
+
+.form-control {
+    padding-left: 10px;
+}
